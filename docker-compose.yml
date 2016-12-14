@@ -29,14 +29,14 @@ var:
 
 app:
   build: .
-  command: make html
+  command: make devserver
   volumes:
     - ./app:/srv/app
     - ./lib:/srv/lib
   volumes_from:
     - var
   ports:
-    - "8080:8080"
+    - "8000:8000"
 
 nginx:
   image: nginx

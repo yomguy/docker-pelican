@@ -8,7 +8,7 @@ SITENAME = "Music and Hacking 2017"
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 # SITEURL = 'http://yomix.org'
-# THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+# THEME = '/srv/lib/pelican-themes/gum'
 # BOOTSTRAP_THEME = 'united'
 # THEME = 'themes/notmyidea'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'

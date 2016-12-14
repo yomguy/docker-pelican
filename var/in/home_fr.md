@@ -38,8 +38,9 @@ Enfin, dans le cadre du Music Hack Day qui se tiendra à l’IRCAM en clôture d
 
 # Calendrier
 
-Les propositions de communications devront être envoyées au plus tard le 1er mai 2017 à musiquehacking2017@gmail.com et la notification d’acceptation ou de rejet sera donnée aux auteurs le 1er juillet 2017 au plus tard. Les propositions comporteront un titre et un résumé d’environ 500 mots, le nom de l’auteur, son institution de rattachement et une brève biographie. Elles seront envoyées au format .doc.
-Toutes les informations relatives au colloque et au Music Hack Day seront mises en ligne sur le site http://www.musichacking2017.ircam.fr.
+Les propositions de communications devront être envoyées au plus tard le 1er mai 2017 à hacking2017@gmail.com et la notification d’acceptation ou de rejet sera donnée aux auteurs le 1er juillet 2017 au plus tard. Les propositions comporteront un titre et un résumé d’environ 500 mots, le nom de l’auteur, son institution de rattachement et une brève biographie. Elles seront envoyées au format .doc.
+
+Toutes les informations relatives au colloque et au Music Hack Day seront mises en ligne sur le site http://hacking2017.ircam.fr.
 
 # Comité scientifique
 
@@ -56,8 +57,6 @@ Baptiste BACOT (EHESS/IRCAM), Clément CANONNE (APM, IRCAM), Frédéric KECK (Mu
 - Ircam
 - LabexCAP
 
-Pour plus d’informations :
-http://hacking2017.ircam.fr
+Pour plus d’informations : http://hacking2017.ircam.fr
 
-Contact :
-hacking2017@gmail.com
+Contact : hacking2017@gmail.com
