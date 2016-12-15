@@ -57,7 +57,7 @@ serve:
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server
 
 devserver:
-	/srv/app/bin/develop_server.sh restart
+	/srv/app/bin/dev.sh restart
 
 stopserver:
 	kill -9 `cat pelican.pid`
