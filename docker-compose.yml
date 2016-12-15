@@ -29,10 +29,12 @@ var:
 
 app:
   build: .
-  command: make devserver
+  command: /bin/bash bin/app.sh
   volumes:
     - ./app:/srv/app
-    - ./lib:/srv/lib
+    # - ./lib/pelican-themes:/srv/lib/pelican-themes
+    # - ./lib/pelican-plugins:/srv/lib/pelican-plugins
+    # - ./lib/pelicangit:/srv/lib/pelicangit
   volumes_from:
     - var
   ports:

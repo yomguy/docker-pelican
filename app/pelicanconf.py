@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 SITENAME = "Music and Hacking 2017"
-# SITEURL = 'http://yomix.org'
+SITEURL = 'http://hacking2017.ircam.fr'
 # AUTHOR = 'Guillaume Pellerin'
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
@@ -48,13 +48,13 @@ TWITTER_USERNAME = 'hacking2017'
 TWITTER_WIDGET_ID = '516222825451888640'
 
 PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
-PLUGINS = ['sitemap', 'gallery',
+# PLUGINS = ['sitemap', 'gallery',
         #     'render_math',
         #     'liquid_tags.img', 'liquid_tags.video',
         #    'liquid_tags.youtube', 'liquid_tags.vimeo',
         #    'liquid_tags.include_code',
         #    'liquid_tags.notebook',
-           ]
+        #    ]
 
 SITEMAP = {
 
@@ -77,3 +77,18 @@ CC_LICENSE = "CC-BY"
 # GOOGLE_ANALYTICS = 'UA-6573030-16'
 
 GALLERY_PATH = '/var/in/img/gallery/'
+
+PELICANGIT_SOURCE_REPO="/var/in"
+PELICANGIT_SOURCE_REMOTE="origin"
+PELICANGIT_SOURCE_BRANCH="master"
+
+PELICANGIT_DEPLOY_REPO="/var/out"
+PELICANGIT_DEPLOY_REMOTE="origin"
+PELICANGIT_DEPLOY_BRANCH="master"
+
+PELICANGIT_USER = "root"
+PELICANGIT_WHITELISTED_FILES = [
+    "README.md"
+]
+
+PELICANGIT_PORT=8888
