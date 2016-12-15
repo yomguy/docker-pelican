@@ -8,7 +8,9 @@ docker composition for static [Pelican](https://github.com/getpelican/pelican-pl
 git clone --recursive https://github.com/yomguy/docker-pelican.git`
 ```
 
-This will also checkout all pelican plugins. To get all pelican-themes:
+This will also checkout all pelican plugins.
+
+To get all pelican-themes, just do:
 
 ```
 cd lib/pelican-themes
@@ -38,6 +40,8 @@ docker-compose up
 # Trigger
 
 The app can automatically be triggered by a webhook as explained [here](https://github.com/yomguy/pelicangit)
+
+The default port in 8888 in our case.
 
 # Enjoy!
 
