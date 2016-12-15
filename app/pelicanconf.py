@@ -2,15 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Guillaume Pellerin'
 SITENAME = "Music and Hacking 2017"
 # SITEURL = 'http://yomix.org'
+# AUTHOR = 'Guillaume Pellerin'
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
 # SITEURL = 'http://yomix.org'
-# THEME = '/srv/lib/pelican-themes/gum'
+# THEME = '/srv/lib/pelican-themes/BT3-Flat'
 # BOOTSTRAP_THEME = 'united'
-# THEME = 'themes/notmyidea'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
 PATH = '/var/in'
@@ -30,19 +29,16 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('Django', 'https://www.djangoproject.com/'),
+LINKS =  (('Ircam', 'http://www.ircam.fr'),
+          ('Musée du Quai Branly', 'http://www.quaibranly.fr/'),
+          ('CNAM', 'http://www.cnam.fr'),
+          ('Labex CAP', 'http://www.quaibranly.fr/'),
+          ('Music Hack Day', 'http://new.musichackday.org/')
           )
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
-          ('Google+', 'https://plus.google.com/+GuillaumePellerin'),
-          ('LinkedIn', 'http://www.linkedin.com/in/guillaumepellerin'),
-          ('GitHub', 'https://github.com/yomguy/'),
-          ('FaceBook', 'https://www.facebook.com/yomguy75'),
-          ('LastFM', 'http://lastfm.com/user/yomguy'),
+SOCIAL = (('Twitter', 'https://twitter.com/Ircam/'),
+          ('GitHub', 'https://github.com/Ircam-RnD/'),
           )
 
 DISQUS_SITENAME='hacking2017'
