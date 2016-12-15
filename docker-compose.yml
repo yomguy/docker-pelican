@@ -23,7 +23,7 @@ var:
   image: debian:jessie
   volumes:
     - ./var/in:/var/in
-    - ./var/out:/var/out
+    - ./var/out
     - ./var/log/nginx:/var/log/nginx
   command: "true"
 
