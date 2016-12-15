@@ -53,10 +53,12 @@ Baptiste BACOT (EHESS/IRCAM), Clément CANONNE (APM, IRCAM), Frédéric KECK (Mu
 # Partenaires
 
 - Musée du Quai Branly
-- CNAM
 - Ircam
+- CNAM
 - Labex CAP
 
-# Contact
+# Contacts
 
 [hacking2017@gmail.com](mailto:hacking2017@gmail.com)
+
+
