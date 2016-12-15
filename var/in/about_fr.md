@@ -54,8 +54,8 @@ Baptiste BACOT (EHESS/IRCAM), Clément CANONNE (APM, IRCAM), Frédéric KECK (Mu
 
 - Musée du Quai Branly
 - Ircam
-- Labex CAP
 - CNAM
+- Labex CAP
 
 # Contact
 
