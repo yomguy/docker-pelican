@@ -57,6 +57,7 @@ Baptiste BACOT (EHESS/IRCAM), Clément CANONNE (APM, IRCAM), Frédéric KECK (Mu
 - CNAM
 - Labex CAP
 
-# Contact
+# Contacts
 
 [hacking2017@gmail.com](mailto:hacking2017@gmail.com)
+
