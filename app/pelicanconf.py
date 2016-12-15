@@ -78,7 +78,7 @@ CC_LICENSE = "CC-BY"
 
 GALLERY_PATH = '/var/in/img/gallery/'
 
-PELICANGIT_SOURCE_REPO="/var/in"
+PELICANGIT_SOURCE_REPO="https://github.com/yomguy/musichacking2017.git"
 PELICANGIT_SOURCE_REMOTE="origin"
 PELICANGIT_SOURCE_BRANCH="master"
 
