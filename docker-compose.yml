@@ -32,7 +32,7 @@ app:
   command: /bin/bash bin/app.sh
   volumes:
     - ./app:/srv/app
-    - ./lib/pelicangit:/srv/lib/pelicangit
+    - ./lib/pelicangit/pelicangit:/srv/lib/pelicangit/pelicangit
     # - ./lib/pelican-themes:/srv/lib/pelican-themes
     # - ./lib/pelican-plugins:/srv/lib/pelican-plugins
   volumes_from:
