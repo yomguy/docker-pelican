@@ -19,13 +19,14 @@ git submodule update
 
 The config file is `app/pelicanconf.py`
 
-# Get text sources
+# Feed
 
-You will need a separate repository for your text sources. Clone it in the var/in directory, for example:
+You will need a separate repository for your input text sources.
+
+Clone your repo in the `var/in` directory, for example:
 
 ```
-cd var
-git clone https://github.com/yomguy/musichacking2017.git
+git clone https://github.com/yomguy/musichacking2017.git var/in
 ```
 
 # Start
