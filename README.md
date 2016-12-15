@@ -1,6 +1,6 @@
 # docker-pelican
 
-docker composition for [Pelican](https://github.com/getpelican/pelican-plugins) based web sites with webhook auto builder
+docker composition for static [Pelican](https://github.com/getpelican/pelican-plugins) based web sites with webhook auto builder
 
 # Install
 
