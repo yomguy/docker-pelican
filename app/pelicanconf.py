@@ -13,7 +13,7 @@ RELATIVE_URLS = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
 PATH = '/var/in'
-OUTPUT_PATH '/var/out'
+OUTPUT_PATH = '/var/out'
 
 TIMEZONE = 'Europe/Paris'
 #
