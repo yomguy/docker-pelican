@@ -6,7 +6,7 @@ SITENAME = "Music and Hacking 2017"
 SITEURL = 'http://hacking2017.ircam.fr'
 # AUTHOR = 'Guillaume Pellerin'
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
 # SITEURL = 'http://yomix.org'
 # THEME = '/srv/lib/pelican-themes/BT3-Flat'
 # BOOTSTRAP_THEME = 'united'
@@ -15,7 +15,7 @@ SITEURL = 'http://hacking2017.ircam.fr'
 PATH = '/var/in'
 
 TIMEZONE = 'Europe/Paris'
-
+#
 DEFAULT_LANG = 'fr'
 DEFAULT_DATE = 'fs'
 
@@ -78,7 +78,7 @@ CC_LICENSE = "CC-BY"
 
 GALLERY_PATH = '/var/in/img/gallery/'
 
-PELICANGIT_SOURCE_REPO="https://github.com/yomguy/musichacking2017.git"
+PELICANGIT_SOURCE_REPO="/var/in"
 PELICANGIT_SOURCE_REMOTE="origin"
 PELICANGIT_SOURCE_BRANCH="master"
 
