@@ -17,7 +17,7 @@ OUTPUT_PATH = '/var/out'
 
 TIMEZONE = 'Europe/Paris'
 #
-DEFAULT_LANG = 'fr'
+DEFAULT_LANG = 'en'
 DEFAULT_DATE = 'fs'
 
 SUMMARY_MAX_LENGTH = 127
