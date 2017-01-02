@@ -17,6 +17,7 @@ develop-eggs
 *.lock
 out
 log
+var
 
 # Installer logs
 pip-log.txt
