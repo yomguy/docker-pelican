@@ -6,9 +6,9 @@ RUN mkdir /srv/app
 RUN mkdir /srv/lib
 WORKDIR /srv
 
-COPY requirements-debian.txt /srv
+COPY etc/requirements-debian.txt /srv
 RUN apt-get update && \
-    DEBIAN_PACKAGES=$(egrep -v "^\s*(#|$)" /srv/requirements-debian.txt) && \
+    DEBIAN_PACKAGES=$(egrep -v "^\s*(#|$)" requirements-debian.txt) && \
     apt-get install -y --force-yes $DEBIAN_PACKAGES && \
     echo fr_FR.UTF-8 UTF-8 >> /etc/locale.gen && \
     locale-gen && \
@@ -18,10 +18,12 @@ ENV LANG fr_FR.UTF-8
 ENV LANGUAGE fr_FR:fr
 ENV LC_ALL fr_FR.UTF-8
 
-COPY requirements.txt /srv
+RUN pip install -U pip
+
+COPY etc/requirements.txt /srv
 RUN pip install -r requirements.txt
 
-COPY requirements-dev.txt /srv
+COPY etc/requirements-dev.txt /srv
 RUN pip install -r requirements-dev.txt --src /srv/lib
 
 WORKDIR /srv/app
