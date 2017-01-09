@@ -4,6 +4,11 @@ A docker composition for static [Pelican](https://github.com/getpelican/pelican-
 
 This program allows to easily start a hosted static website just by editing/pushing some markdown or restructured pages on GitHub or any repository with webhooks enabled. It bundles pelican, pelican-plugins, pelican-themes and pelicangit for a maximum flexibility.
 
+# Example
+
+Here is a page repo: https://github.com/yomguy/musichacking2017
+and its related static (but then dynamically triggered) site : http://hacking2017.ircam.fr/
+
 # Install
 
 ```
