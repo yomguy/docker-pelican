@@ -1,6 +1,8 @@
 # docker-pelican
 
-docker composition for static [Pelican](https://github.com/getpelican/pelican-plugins) based web sites with webhook auto builder
+A docker composition for static [Pelican](https://github.com/getpelican/pelican-plugins) based web sites updatable with a webhook.
+
+This program allows to easily start a hosted static website just by editing/pushing some markdown or restructured pages on GitHub or any repository with webhooks enabled. It bundles pelican, pelican-plugins, pelican-themes and pelicangit for a maximum flexibility.
 
 # Install
 
