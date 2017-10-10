@@ -28,7 +28,7 @@ var:
   command: "true"
 
 app:
-  build: app
+  build: .
   command: /bin/bash bin/app.sh
   volumes:
     - ./app:/srv/app
