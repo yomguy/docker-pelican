@@ -14,7 +14,7 @@ and its related static (but then dynamically triggered) site : http://hacking201
 # Install
 
 ```
-git clone --recursive https://github.com/yomguy/docker-pelican.git`
+git clone --recursive https://github.com/Ircam-Web/docker-pelican.git
 ```
 
 This will also checkout all pelican plugins.
