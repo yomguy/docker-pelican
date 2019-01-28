@@ -18,25 +18,11 @@
 # Authors:
 # Guillaume Pellerin <guillaume.pellerin@ircam.fr>
 
-
-var:
-  image: debian:jessie
+nginx:
+  image: nginx
+  ports:
+    - "8020:80"
   volumes:
-    - ./var/in:/var/in
-    - ./var/out:/var/out
-    - ./var/log/nginx:/var/log/nginx
-  command: "true"
-
-app:
-  build: .
-  command: /bin/bash bin/app.sh
-  volumes:
-    - ./app:/srv/app
-    - ./lib/pelicangit/pelicangit:/srv/lib/pelicangit/pelicangit
-    - ./lib/pelican-themes:/srv/lib/pelican-themes
-    - ./lib/pelican-plugins:/srv/lib/pelican-plugins
+    - ./etc/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
   volumes_from:
     - var
-  ports:
-    - "8888:8888"
-
