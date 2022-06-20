@@ -19,14 +19,6 @@
 # Guillaume Pellerin <guillaume.pellerin@ircam.fr>
 
 
-var:
-  image: debian:jessie
-  volumes:
-    - ./var/in:/var/in
-    - ./var/out:/var/out
-    - ./var/log/nginx:/var/log/nginx
-  command: "true"
-
 app:
   build: .
   command: /bin/bash bin/app.sh
@@ -35,8 +27,8 @@ app:
     - ./lib/pelicangit/pelicangit:/srv/lib/pelicangit/pelicangit
     - ./lib/pelican-themes:/srv/lib/pelican-themes
     - ./lib/pelican-plugins:/srv/lib/pelican-plugins
-  volumes_from:
-    - var
+    - ./var/in:/var/in
+    - ./var/out:/var/out
   ports:
     - "8888:8888"
 

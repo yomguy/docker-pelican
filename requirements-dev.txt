@@ -1,2 +1,1 @@
 -e git+https://github.com/yomguy/pelicangit.git#egg=pelicangit
-#
