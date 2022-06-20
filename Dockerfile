@@ -6,7 +6,6 @@ RUN mkdir /srv/app
 RUN mkdir /srv/lib
 WORKDIR /srv
 
-COPY requirements-debian.txt /srv
 RUN apt-get update && \
     apt-get install -y --force-yes git && \
     apt-get clean
