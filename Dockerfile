@@ -18,12 +18,12 @@ ENV LANG fr_FR.UTF-8
 ENV LANGUAGE fr_FR:fr
 ENV LC_ALL fr_FR.UTF-8
 
-RUN pip3 install -U pip
+RUN pip install -U pip
 
 COPY requirements.txt /srv
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
 COPY requirements-dev.txt /srv
-RUN pip3 install -r requirements-dev.txt --src /srv/lib
+RUN pip install -r requirements-dev.txt --src /srv/lib
 
 WORKDIR /srv/app
