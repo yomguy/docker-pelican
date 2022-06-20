@@ -1,0 +1,9 @@
+.git
+*.pyc
+*.egg-info
+build/
+dist/
+env/
+tmp/
+var/
+node_modules
