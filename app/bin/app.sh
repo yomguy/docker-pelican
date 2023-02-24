@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -f /var/in/pelican_conf.py ]; then
-    conf=/var/in/pelican_conf.py
+if [ -f /var/in/pelicanconf.py ]; then
+    conf=/var/in/pelicanconf.py
 else
-    conf=pelican_conf.py
+    conf=pelicanconf.py
 fi
 
 if [ "$1" = "--runserver" ]; then
