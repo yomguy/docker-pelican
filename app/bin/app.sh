@@ -10,5 +10,5 @@ if [ "$1" = "--runserver" ]; then
     pelican --debug --autoreload -s $conf
 else
     # pelican -s $conf
-    pelicangit -s $conf
+    pelicangit /var/in -s $conf
 fi
