@@ -19,16 +19,19 @@
 # Guillaume Pellerin <guillaume.pellerin@ircam.fr>
 
 
-app:
-  build: .
-  command: /bin/bash bin/app.sh
-  volumes:
-    - ./app:/srv/app
-    - ./lib/pelicangit/pelicangit:/srv/lib/pelicangit/pelicangit
-    - ./lib/pelican-themes:/srv/lib/pelican-themes
-    - ./lib/pelican-plugins:/srv/lib/pelican-plugins
-    - ./var/in:/var/in
-    - ./var/out:/var/out
-  ports:
-    - "8888:8888"
+version: "3"
+
+services:
+  app:
+    build: .
+    command: /bin/bash bin/app.sh
+    volumes:
+      - ./app:/srv/app
+      - ./lib/pelicangit/pelicangit:/srv/lib/pelicangit/pelicangit
+      - ./lib/pelican-themes:/srv/lib/pelican-themes
+      - ./lib/pelican-plugins:/srv/lib/pelican-plugins
+      - ./var/in:/var/in
+      - ./var/out:/var/out
+    ports:
+      - "8888:8888"
 

@@ -15,7 +15,4 @@ RUN pip install -U pip
 COPY requirements.txt /srv
 RUN pip install -r requirements.txt
 
-COPY requirements-dev.txt /srv
-RUN pip install -r requirements-dev.txt --src /srv/lib
-
 WORKDIR /srv/app
